@@ -35,8 +35,8 @@
     "lib/index.js"
   ],
   "devDependencies": {
-    "@babel/code-frame": "^7.25.7",
-    "@babel/core": "^7.25.8",
+    "@babel/code-frame": "^7.26.0",
+    "@babel/core": "^7.26.0",
     "anser": "^2.3.0",
     "babel-jest": "^29.7.0",
     "babel-loader": "^9.2.1",
@@ -54,7 +54,7 @@
     "react": "^18.3.1",
     "react-app-polyfill": "github:fdpamb/react-app-polyfill",
     "react-dom": "^18.3.1",
-    "rimraf": "^3.0.2",
+    "rimraf": "^6.0.1",
     "settle-promise": "^1.0.0",
     "source-map": "^0.5.7",
     "webpack": "^5.95.0"
