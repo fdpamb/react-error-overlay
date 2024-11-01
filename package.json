@@ -35,7 +35,7 @@
     "lib/index.js"
   ],
   "devDependencies": {
-    "@babel/code-frame": "^7.26.0",
+    "@babel/code-frame": "^7.26.2",
     "@babel/core": "^7.26.0",
     "anser": "^2.3.0",
     "babel-jest": "^29.7.0",
@@ -44,7 +44,7 @@
     "chalk": "^4.1.2",
     "chokidar": "^4.0.1",
     "cross-env": "^7.0.3",
-    "flow-bin": "^0.250.0",
+    "flow-bin": "^0.251.1",
     "html-entities": "^2.5.2",
     "jest": "^27.5.1",
     "jest-fetch-mock": "^3.0.3",
@@ -57,7 +57,7 @@
     "rimraf": "^6.0.1",
     "settle-promise": "^1.0.0",
     "source-map": "^0.6.1",
-    "webpack": "^5.95.0"
+    "webpack": "^5.96.0"
   },
   "jest": {
     "setupFiles": [
