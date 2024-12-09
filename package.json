@@ -44,7 +44,7 @@
     "chalk": "^4.1.2",
     "chokidar": "^4.0.1",
     "cross-env": "^7.0.3",
-    "flow-bin": "^0.255.0",
+    "flow-bin": "^0.256.0",
     "html-entities": "^2.5.2",
     "jest": "^27.5.1",
     "jest-fetch-mock": "^3.0.3",
@@ -57,7 +57,7 @@
     "rimraf": "^6.0.1",
     "settle-promise": "^1.0.0",
     "source-map": "^0.6.1",
-    "webpack": "^5.96.1"
+    "webpack": "^5.97.1"
   },
   "jest": {
     "setupFiles": [
