@@ -71,7 +71,8 @@ module.exports = {
     new webpack.DefinePlugin({
       // We set process.env.NODE_ENV to 'production' so that React is built
       // in production mode.
-      'process.env': { NODE_ENV: '"production"' },
+      // https://stackoverflow.com/questions/66772358/webpack-warning-warning-in-defineplugin-conflicting-values-for-process-env-no
+      'process.env.NODE_ENV': JSON.stringify('development'),
       // This prevents our bundled React from accidentally hijacking devtools.
       __REACT_DEVTOOLS_GLOBAL_HOOK__: '({})',
     }),
