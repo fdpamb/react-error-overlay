@@ -13,12 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/react-error-overlay"
+    "url": "https://github.com/fdpamb/react-error-overlay"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/fdpamb/react-error-overlay/issues"
   },
   "keywords": [
     "overlay",
