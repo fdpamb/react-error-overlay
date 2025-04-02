@@ -44,7 +44,7 @@
     "chokidar": "^4.0.3",
     "cross-env": "^7.0.3",
     "flow-bin": "^0.259.1",
-    "html-entities": "^2.5.3",
+    "html-entities": "^2.6.0",
     "jest": "^27.5.1",
     "jest-fetch-mock": "^3.0.3",
     "object-assign": "^4.1.1",
