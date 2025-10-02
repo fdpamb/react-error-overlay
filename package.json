@@ -78,7 +78,7 @@
   },
   "overrides": {
     "webpack": {
-      "es5-ext": "0.10.53"
+      "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
     }
   }
 }
