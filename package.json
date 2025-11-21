@@ -35,8 +35,8 @@
   ],
   "devDependencies": {
     "@babel/code-frame": "^7.27.1",
-    "@babel/core": "^7.28.4",
-    "anser": "^2.3.2",
+    "@babel/core": "^7.28.5",
+    "anser": "^2.3.3",
     "babel-jest": "^30.2.0",
     "babel-loader": "^10.0.0",
     "babel-preset-react-app": "github:fdpamb/babel-preset-react-app",
@@ -53,10 +53,10 @@
     "react": "^18.3.1",
     "react-app-polyfill": "github:fdpamb/react-app-polyfill",
     "react-dom": "^18.3.1",
-    "rimraf": "^6.0.1",
+    "rimraf": "^6.1.2",
     "settle-promise": "^1.0.0",
     "source-map": "^0.6.1",
-    "webpack": "^5.102.0"
+    "webpack": "^5.103.0"
   },
   "jest": {
     "setupFiles": [
@@ -79,6 +79,12 @@
   "overrides": {
     "webpack": {
       "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
+    },
+    "jsdom": {
+      "form-data": "^3.0.4"
+    },
+    "node-fetch": {
+      "form-data": "^2.5.5"
     }
   }
 }
