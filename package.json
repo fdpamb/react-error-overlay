@@ -34,29 +34,30 @@
     "lib/index.js"
   ],
   "devDependencies": {
-    "@babel/code-frame": "^7.29.0",
-    "@babel/core": "^7.29.0",
-    "anser": "^2.3.5",
-    "babel-jest": "^30.3.0",
-    "babel-loader": "^10.1.1",
+    "@babel/code-frame": "7.29.7",
+    "@babel/core": "7.29.7",
+    "anser": "2.3.5",
+    "babel-jest": "30.4.1",
+    "babel-loader": "10.1.1",
     "babel-preset-react-app": "github:fdpamb/babel-preset-react-app",
-    "chalk": "^4.1.2",
-    "chokidar": "^4.0.3",
-    "cross-env": "^7.0.3",
-    "flow-bin": "^0.259.1",
-    "html-entities": "^2.6.0",
-    "jest": "^27.5.1",
-    "jest-fetch-mock": "^3.0.3",
-    "object-assign": "^4.1.1",
-    "promise": "^8.3.0",
-    "raw-loader": "^4.0.2",
-    "react": "^18.3.1",
+    "chalk": "4.1.2",
+    "chokidar": "4.0.3",
+    "cross-env": "7.0.3",
+    "flow-bin": "0.259.1",
+    "html-entities": "2.6.0",
+    "jest": "27.5.1",
+    "jest-fetch-mock": "3.2.0",
+    "terser-webpack-plugin": "5.6.1",
+    "object-assign": "4.1.1",
+    "promise": "8.3.0",
+    "raw-loader": "4.0.2",
+    "react": "18.3.1",
     "react-app-polyfill": "github:fdpamb/react-app-polyfill",
-    "react-dom": "^18.3.1",
-    "rimraf": "^6.1.3",
-    "settle-promise": "^1.0.0",
-    "source-map": "^0.6.1",
-    "webpack": "^5.106.2"
+    "react-dom": "18.3.1",
+    "rimraf": "6.1.3",
+    "settle-promise": "1.0.0",
+    "source-map": "0.6.1",
+    "webpack": "5.108.4"
   },
   "jest": {
     "setupFiles": [
@@ -81,10 +82,10 @@
       "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
     },
     "jsdom": {
-      "form-data": "^3.0.4"
+      "form-data": "3.0.5"
     },
     "node-fetch": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     }
   }
 }
